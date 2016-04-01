@@ -1,0 +1,128 @@
+
+body {
+  padding-top: 50px;
+    font: 400 15px Lato, sans-serif;
+    line-height: 1.8;
+    color: #818181;
+}
+
+
+.navbar {
+      margin-bottom: 0;
+      //background-color: #f4511e;
+        background-color: #4bf;
+      z-index: 9999;
+      border: 0;
+      font-size: 12px !important;
+      line-height: 1.42857143 !important;
+      letter-spacing: 4px;
+      border-radius: 0;
+      font-family: Montserrat, sans-serif;
+  }
+  .navbar li a, .navbar .navbar-brand {
+      color: #fff !important;
+  }
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+      color: #fff !important;
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+     color: #4bf !important;
+     background-color: #fff !important;
+ }
+#slideshow {
+    //margin: 50px auto;
+    //position: relative;
+  // width: 240px;
+    //height: 240px;
+    //padding: 10px;
+  //  box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+#slideshow > div {
+  //  position: absolute;
+  //  top: 10px;
+    //left: 10px;
+    //right: 10px;
+    //bottom: 10px;
+}
+
+img.logo {
+  width: 100px;
+}
+div.lgo{
+  position: relative;
+  top:-15px;
+}
+
+div.image-container{
+    position: relative;
+}
+.overlay {
+  //visibility: hidden;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    background-color: rgba(0,0,0,0.2)
+}
+@media (max-width: 1050px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
+   .navbar-nav .open .dropdown-menu {
+       position: static;
+       float: none;
+       width: auto;
+       margin-top: 0;
+       background-color: transparent;
+       border: 0;
+       -webkit-box-shadow: none;
+       box-shadow: none;
+    }
+}
+.heigh {
+  height: 90%;
+}
+.bg-logo {
+  position: absolute;
+  top: 0px;
+  width: 40%;
+}
+.test {
+  padding-left: 0px;
+  padding-right:0px;
+  position: relative;
+}
